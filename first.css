@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.navbar{
+    padding: 1em;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: whitesmoke;
+}
+.navbar nav a{
+    text-decoration: none;
+    margin: 0 1em;
+    color: black;
+    font-size: larger;
+}
+.hero{
+    background: #000 url("https://cdn.blablacar.com/k/a/images/carpool_only_large-138d9f97c3f7113d.svg") no-repeat center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forms{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.share{
+    margin: 2em;
+    box-sizing: border-box;
+    background: cadetblue;
+    height: 38vh;
+    border-radius: 9px;
+}
+.share1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: aliceblue;
+    font-size: large;
+}
+.sharebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sharebtn h3{
+    background: white;
+    color: #1e90ff;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 99px;
+    padding: 6px;
+}
+.help{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.learn{
+    margin: 1em;
+    margin-left: 0px;
+    background: #1e90ff;
+    color: white;
+    border-radius: 99px;
+    padding: 8px;
+    width: fit-content;
+    height: fit-content;
+}
